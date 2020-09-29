@@ -1,0 +1,30 @@
+{
+  "name": "ts-lib-template",
+  "version": "0.1.0",
+  "description": "Well typed safety validator",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wongsean/ts-lib-template.git"
+  },
+  "keywords": [],
+  "author": "Sean Wong",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "jest": "latest",
+    "ts-jest": "latest",
+    "typescript": "latest"
+  },
+  "bugs": {
+    "url": "https://github.com/wongsean/ts-lib-template/issues"
+  },
+  "dependencies": {}
+}
